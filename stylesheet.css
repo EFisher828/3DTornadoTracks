@@ -5,8 +5,8 @@ body {
 	padding: 0px;
   	font-family: "Lato", sans-serif;
 }
-.mySlides {
-	display:none;
+a {
+	color: black;
 }
 .center {
 	margin-left: auto;
@@ -18,6 +18,19 @@ body {
 	width: 200px;
 	padding: 15px;
 }
+#enlarge {
+	width: 40%;
+	border-radius: 25%;
+	box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#enlarge:hover {
+	width:42%;
+	box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mySlides {
+	display:none;
+}
+
 /* Menu  CSS */
 .sidebar {
   height: 100%;

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@EFisherWX" />
+<meta name="twitter:title" content="3D State Tornado Tracks" />
+<meta name="twitter:description" content="View 1950-2019 tornado tracks from across the U.S. in 3D." />
+<meta name="twitter:image" content="https://raw.githubusercontent.com/EFisher828/3DTornadoTracks/main/torTracks/US.png" />
+<link rel="stylesheet" href="stylesheet.css"/>
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+<title>Four Seasons Maps</title>	
+</head>
+
+<body>
+	
+<header>
+	<a href="./index.html"><img src="./Logo.png" / class="settle"></a>
+	<!-- <h2 class="settle">Four Seasons Maps</h2> -->
+	
+	<div id="mySidebar" class="sidebar">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="./index.html">Home</a>
+	  <a href="./grandfathermtnwx.html">Grandfather Wx</a>
+	  <a href="./tornado-tracks.html">3D Tornado Tracks</a>
+	  <a href="./tutorials.html">Mapping Tutorials</a>
+	  <a href="./shop.html">Etsy Shop</a>
+	</div>
+	<div id="menuBtn">
+		<button class="openbtn" onclick="openNav()">☰ Open Menu</button>
+	</div>
+</header>
+
+<p style="text-align:center;font-size:200%;">Grandfather Mountain State Park</p>
+<p style="text-align:center;font-size:150%;">Current Weather Conditions</p>
+<p style="text-align:center;font-size:150%;" id='time'></p>
+<table align="center" style="text-align:center;border:1px solid black;width:300px;">
+	<tbody>
+		<tr>
+			<td>Temperature</td>
+			<td id='temperature'></td>
+		</tr>
+		<tr>
+			<td>Dew Point</td>
+			<td id='dew'></td>
+		</tr>
+		<tr>
+			<td>Wind Speed</td>
+			<td id='speed'></td>
+		</tr>
+		<tr>
+			<td>Wind Gust</td>
+			<td id='gust'></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="w3-content w3-section" style="max-width:70%;margin-left:auto;margin-right:auto;display:block;margin-bottom: 2%;margin-top: 5%">
+  <img class="mySlides" src="Grandpa 1.jpg" style="width:100%">
+  <img class="mySlides" src="Grandpa 2.jpg" style="width:100%">
+  <img class="mySlides" src="Grandpa 3.jpg" style="width:100%">
+  <img class="mySlides" src="Grandpa 4.jpg" style="width:100%">
+  <img class="mySlides" src="Grandpa 5.jpg" style="width:100%">
+</div>
+
+<script src="./bulkyFunctions.js" type="text/javascript"></script>
+<script src="./stationPull.js" type="text/javascript"></script>
+<script src="./main.js" type="text/javascript"></script>
+</body>
+<footer style="margin-top:5%;">
+	<p style="margin-bottom:1px;color:grey;font-size:80%;text-align:center;">© 2021 Four Seasons Maps</p>
+</footer>
+</html>
